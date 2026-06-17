@@ -4,3 +4,10 @@ LigaCión es una aplicación de escritorio desarrollada en Python con la bibliot
 
 <img width="417" height="331" alt="image" src="https://github.com/user-attachments/assets/31d27750-f942-4ac4-b262-5fab75363d19" />
 
+# CONCEPTOS DE POO UTILIZADOS:
+#   - Clases y Objetos: Equipo, Partido, Usuario, Apuesta, LigaCoinApp
+#   - Encapsulamiento: atributos privados con nombre _atributo y getters/setters
+#   - Constructores (__init__) en todas las clases
+#   - Métodos propios en cada clase con responsabilidades claras
+#   - Asociación entre objetos: Partido contiene Equipos, Apuesta referencia
+#     a Partido y Equipo, Usuario administra su lista de Apuestas
